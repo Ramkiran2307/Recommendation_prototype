@@ -1,3 +1,7 @@
+import os
+os.system("python database1.py")
+os.system("python seed1.py")
+
 from fastapi import FastAPI
 from models1 import MoodInput
 from recommendation1 import get_recommendations
