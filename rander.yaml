@@ -1,0 +1,5 @@
+services:
+  - name: nirvaha-api
+    env: python
+    buildCommand: "pip install -r requirements1.txt"
+    startCommand: "python main1.py"
